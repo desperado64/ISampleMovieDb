@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.WebApi2" Version="5.0.0" />
+    <PackageReference Include="FluentValidation" Version="9.5.0" />
+    <PackageReference Include="Ninject" Version="3.3.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ISampleMovieDb.DataAccess\ISampleMovieDb.DataAccess.csproj" />
+    <ProjectReference Include="..\ISampleMovieDb.Entities\ISampleMovieDb.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
